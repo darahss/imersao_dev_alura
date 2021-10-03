@@ -1,0 +1,68 @@
+@font-face {
+  font-family: bit-title;
+
+  src: url(../assets/fonts/8-bit-hud.ttf);
+}
+
+body {
+  font-family: 'bit-title';
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.moeda {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 15px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+div#prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.price-gold,
+.price-real {
+  font-family: ;
+}
+
+.symbol {
+  color: #ffffff;
+}
+
+.value-input {
+}
+
+.footer {
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Ouro/Real</title>
+    <link rel="stylesheet" href="../goldconverter_main/css/style_goldconverter.css" />
+    <script src="../goldconverter_main/js/script_goldconverter.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/ico" href="../goldconverter_main/assets/img/hnet.com-image.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <img class="moeda" src="../goldconverter_main/assets/img/moeda.gif" alt="moeda girando" />
+      <h1 class="page-title">inshalah</h1>
+      <p class="page-subtitle">muito ouro</p>
+        <!--cotação total-->
+        <div id="prices">
+          <!--preço do ouro--> 
+            <span class="PriceGold">
+            
+            
+            <span class="symbol">g</span>
+            <input type="number" id="GoldValue" value="1" onchange="ConverterOnChangeGoldValue()" style="width: 3.6em;">  
+            
+          </span>
+          
+          <!--preço do real-->
+          <span class="PriceReal">
+          
+          <span class="symbol">R$</span>
+          <input type="number" id="RealValue" 
+          value="298.8" onchange="ConverterOnChangeRealValue()" style="width: 4em;">
+          
+          </span>
+          </div>
+          <!--fim cotação total-->
+          </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt="logo alura"
+        class="alura-logo"
+      />
+    </a>
+  </body>
+  <footer>
+    <p class="footer">Desenvolvido por <a href="https://github.com/darahss">Darinight</a> </p>
+  </footer>
+</html>
